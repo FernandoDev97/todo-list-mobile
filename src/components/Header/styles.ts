@@ -35,6 +35,8 @@ export const styles = StyleSheet.create({
         color: '#ffffff',
         padding: 16,
         flex: 1,
+        borderColor: '#0d0d0d',
+        borderWidth: 1
     },
     buttonAdd: {
         width: 56,

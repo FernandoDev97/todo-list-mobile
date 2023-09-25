@@ -4,7 +4,7 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     container: {
         paddingHorizontal: 24,
-        marginVertical: 28,
+        marginVertical: 36,
         gap: 24
     },
     statusTasksSection: {

@@ -1,5 +1,6 @@
 import { Text, View } from "react-native";
 import { styles } from "./styles";
+import { EmptyTasks } from "../EmptyTasks";
 
 export function Tasks() {
   return (
@@ -14,7 +15,8 @@ export function Tasks() {
           <Text style={styles.statusTasksQuantity}>0</Text>
         </View>
       </View>
-      <View style={styles.divider}/>
+      <View style={styles.divider} />
+      <EmptyTasks />
     </View>
   );
 }
