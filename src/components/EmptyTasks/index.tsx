@@ -4,6 +4,7 @@ import { styles } from "./styles";
 export function EmptyTasks() {
   return (
     <View style={styles.container}>
+      <View style={styles.divider} />
       <Image source={require("../../../assets/Clipboard.png")} />
       <View style={styles.boxTexts}>
         <Text style={styles.textBold}>

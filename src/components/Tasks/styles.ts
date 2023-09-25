@@ -32,10 +32,5 @@ export const styles = StyleSheet.create({
     textPurple: {
         color: '#8284fa',
         fontWeight: "bold"
-    },
-    divider: {
-        width: '100%',
-        height: 1,
-        backgroundColor: '#333333'
     }
 })

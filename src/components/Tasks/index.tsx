@@ -15,7 +15,6 @@ export function Tasks() {
           <Text style={styles.statusTasksQuantity}>0</Text>
         </View>
       </View>
-      <View style={styles.divider} />
       <EmptyTasks />
     </View>
   );

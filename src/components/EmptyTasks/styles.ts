@@ -4,8 +4,13 @@ export const styles = StyleSheet.create({
     container: {
         width: '100%',
         alignItems: "center",
-        marginVertical: 24
     }, 
+    divider: {
+        width: '100%',
+        height: 1,
+        backgroundColor: '#333333',
+        marginBottom: 32
+    },
     boxTexts: {
         marginTop: 16,
         gap: 2,
